@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: ;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #F4623A;
+    width: 3px;
+}
+/*---------Header---------*/
+.header {
+    position: fixed;
+    padding: 20px 100px;
+    overflow: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---------Logo------------*/
+.logo {
+    float: left;
+}
+
+.logo a {
+    font-size: 23px;
+    font-weight: bold;
+    color: #F4623A;
+    transition: 0.7s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo a:hover {
+    color: #ffff00;
+}
+
+/*--------Novbar--------------*/
+.novbar a {
+    color: aliceblue;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.novbar a:hover {
+    color: #ffff00;
+
+}
+
+.novbar {
+    margin-top: 5px;
+    float: right;
+}
+
+/*-----------First Class | Sheet 1---------*/
+.first {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: 30% 55%;
+    background-size: cover;
+    text-align: center;
+    padding: 16rem 0;
+}
+
+.first a {
+    color: #fff;
+    background-color: #F4623A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 30px;
+    transition: 0.5s;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first a:hover {
+    background-color: #ff8260;
+}
+
+.first h1 {
+    font-size: 40px;
+    color: #fff;
+    background-color: black;
+    opacity: 0.6;
+    width: 45%;
+    margin-left: 28%;
+    border-radius: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1.5s;
+}
+
+.first h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 60px;
+    padding-right: 15rem;
+    margin-left: 20rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.first hr {
+    margin: 3% 48%;
+    border: 1px solid #F4623A;
+    opacity: 0.7;
+    border-radius: 6px;
+    background-color: #F4623A;
+    width: 70px;
+    height: 6px;
+    margin-right: 10px;
+}
+
+/*-----------Second Class | Sheet 2--------*/
+
+.second {
+    background-color: #F4623A;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.second h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second hr {
+    margin: 3% 48%;
+    border: 1px solid #ffffff;
+    opacity: 0.7;
+    border-radius: 6px;
+    background-color: #ffffff;
+    width: 70px;
+    height: 6px;
+
+}
+
+.second p {
+    font-size: 20px;
+    color: #FCD8CE;
+    margin-bottom: 50px;
+    padding-right: 20rem;
+    margin-left: 20rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.second a {
+    padding: 20px 30px;
+    color: #000000;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.second a:hover {
+    background-color: wheat;
+}
+
+/*------------Third Class | Sheet 3------------*/
+
+.third {
+    background-color: #fff;
+    padding: 13rem;
+}
+
+.third h2 {
+    padding-top: 10px;
+    float: left;
+    margin-left: 7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.third h1 {
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-top: -70px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.third hr {
+    margin: 3% 47.5%;
+    border: 1px solid #F4623A;
+    opacity: 0.7;
+    border-radius: 6px;
+    background-color: #F4623A;
+    width: 70px;
+    height: 6px;
+    margin-right: 10px;
+}
+
+
+
+/* ------------Download Page | Sheet 5------------*/
+.download {
+    background-color: #212529;
+    padding: 13rem;
+    text-align: center;
+}
+
+.download h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color : #ffffff;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+/*-------------Contact | Sheet 6----------------*/
+.download > a{
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact{
+    background-position: 90% 15%;
+    background-image: url(https://wallpapercave.com/wp/wp9905571.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 16rem;
+}
+
+.contact h1{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.card{
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+.contact p{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card input{
+    margin-bottom: 20px;
+    margin-left: 30%;
+    width: 40%;
+    height: 30px;
+
+}
+.card textarea{
+    margin-left: 30%;
+    width: 40%;
+    
+}
+.contact a{
+    background-color: #F4623A;
+    color: #ffffff;
+    margin-left: 43%;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
